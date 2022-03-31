@@ -1,5 +1,6 @@
 :root {
     --Primary-color: #00b4d9;
+    --btn-begin: 200px;
 }
 
 * {
@@ -63,7 +64,7 @@
 }
 
 .btn-begin {
-    width: 200px;
+    width: var(--btn-begin);
     font-size: 20px;
     font-weight: 500;
     color: #fff;
@@ -96,19 +97,16 @@
 
 /* CV */
 .body {
-    height: 500px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-
 }
 
 .box {
-    margin: 60px 40px 60px 40px;
-    width: 222px;
+    margin: 40px 20px 40px 20px;
     background-color: #fff;
     border: 2px solid var(--Primary-color);
-    padding: 30px;
+    padding: 40px;
     border-radius: 10px;
     transition: 0.6s;
 }
@@ -169,7 +167,6 @@
 
 /* Contact */
 .contact {
-    min-height: 500px;
     background-color: var(--Primary-color);
 }
 
@@ -254,7 +251,6 @@
     background-color: #000;
 }
 
-/* responsive */
 @media (min-width: 768px) and (max-width: 1023px)
 {
     .btn-view {
@@ -300,5 +296,16 @@
     .btn-send {
         margin: 20px 40px;
         padding: 20px 20px
+    }
+}
+
+@media (max-width: 567px)
+{
+    .btn-begin {
+        top: 88%;
+        left: 40%;
+    }
+    .btn-send {
+        margin: 20px 34px;
     }
 }
