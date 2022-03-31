@@ -254,34 +254,32 @@
     background-color: #000;
 }
 
-/* ipad */
-@media screen and (min-width: 768px), (max-width: 1023px)  {
-    .btn-send {
-        margin: 20px 115px;
-    }
+/* responsive */
+@media (min-width: 768px) and (max-width: 1023px)
+{
     .btn-view {
         width: 100%;
         margin: 50px 20px 20px 0;
     }
+    .btn-send {
+        margin: 20px 110px;
+    }
 }
 
-@media screen and (min-width: 390px), (max-width: 843px){
+@media (max-width: 767px)
+{
     .title {
-        font-size: 45px;
+        font-size: 40px;
     }
     .sub-title {
-        font-size: 45px;
-        left: 42%;
+        font-size: 40px;
     }
     .name {
         font-size: 30px;
-        left: 42%;
+        left: 45%;
     }
-    .btn-begin {
-        left: 42%;
-    }
-    .btn-begin a{
-        padding: 20px 40px;
+    .btn-view {
+        left: 35%;
     }
     .body {
         flex-direction: column;
@@ -295,12 +293,12 @@
     .input-mess {
         width: 80%;
     }
-
     .input-subject,
     .input-mess {
-        margin-top: 20px;   
+        margin-top: 20px;
     }
     .btn-send {
-        padding: 20px 20px;
+        margin: 20px 40px;
+        padding: 20px 20px
     }
 }
