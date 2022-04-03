@@ -55,7 +55,7 @@
     font-weight: 600;
 }
 
-.container-fluid .infor {
+.container-fluid .member {
     position: absolute;
     top: 58%;
     left: 45%;
@@ -64,7 +64,7 @@
     font-weight: 500;
 }
 
-.container-fluid .infor p {
+.container-fluid .member p {
     margin: 0;
 }
 
@@ -240,7 +240,7 @@
     .container-fluid .sub-title {
         top: 30%;
     }
-    .container-fluid .infor {
+    .container-fluid .member {
         top: 50%;
     }
 }
@@ -255,7 +255,7 @@
         left: 40%;
         font-size: 45px;
     }
-    .container-fluid .infor {
+    .container-fluid .member {
         top: 40%;
         left: 40%;
     }
@@ -292,7 +292,7 @@
         left: 40%;
         font-size: 45px;
     }
-    .container-fluid .infor {
+    .container-fluid .member {
         top: 40%;
         left: 40%;
     }
@@ -310,7 +310,7 @@
         left: 40%;
         font-size: 45px;
     }
-    .container-fluid .infor {
+    .container-fluid .member {
         top: 45%;
         left: 40%;
     }
@@ -329,7 +329,7 @@
         left: 40%;
         font-size: 35px;
     }
-    .container-fluid .infor {
+    .container-fluid .member {
         top: 40%;
         left: 40%;
         font-size: 25px;
@@ -353,7 +353,7 @@
         left: 40%;
         font-size: 35px;
     }
-    .container-fluid .infor {
+    .container-fluid .member {
         top: 40%;
         left: 40%;
         font-size: 25px;
